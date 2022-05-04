@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodejs Web Test</title>
+    <%- include ('partials/head.html'); %>
+ </head>
+<body>
+    <h1 class="text-center"><%= title %></h1>
+    <%- include ('partials/navigation.html'); %>
+   
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img class="img-fluid animate__animated animate__pulse " src="/img/panda.png">
+            </div>
+        </header>
+    </div>
+
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fa-brands fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>The best Channel</h3>
+                <p>Se fundó en 1996 con el nombre de Panda Club y comenzó sus emisiones oficiales en Portugal el 1 de abril de 1996. Inicialmente se emitía también en Macao. Dos años más tarde cambió el nombre y pasó a llamarse Canal Panda. Entre 2000 y 2011, el canal se produjo exclusivamente para el mercado portugués.</p>
+            </div>
+        </div>
+    </div>
+
+    <%- include ('partials/footer.html'); %>
+</body>
+</html>
