@@ -1,9 +1,12 @@
 {
+  "homepage": "https://blur-1.github.io/testPanda-Nodejs",
   "name": "web2-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run ",
+    "deploy": "gh-pages -d src/views",
     "dev": "nodemon src",
     "start": "node src",
     "test": "echo \"Error: no test specified\" && exit 1"
